@@ -1,0 +1,56 @@
+[
+  {
+    "title": "REVENUE",
+    "total": "200.000€",
+    "colors": {
+      "primary": "#88D34A",
+      "secondary": "#3D6A13"
+    },
+    "left": {
+      "label": "Tablet",
+      "percentage": "60",
+      "value": "120.000€"
+    },
+    "right": {
+      "label": "Smartphone",
+      "percentage": "40",
+      "value": "80.000€"
+    }
+  },
+  {
+    "title": "IMPRESIONS",
+    "total": "50.000.000",
+    "colors": {
+      "primary": "#6CCEE4",
+      "secondary": "#2B566D"
+    },
+    "left": {
+      "label": "Tablet",
+      "percentage": "40",
+      "value": "20.000.000"
+    },
+    "right": {
+      "label": "Smartphone",
+      "percentage": "60",
+      "value": "30.000.000"
+    }
+  },
+  {
+    "title": "VISITS",
+    "total": "600.000.000",
+    "colors": {
+      "primary": "#F2C12C",
+      "secondary": "#B65A25"
+    },
+    "left": {
+      "label": "Tablet",
+      "percentage": "80",
+      "value": "480.000.000"
+    },
+    "right": {
+      "label": "Smartphone",
+      "percentage": "20",
+      "value": "120.000.000"
+    }
+  }
+]
