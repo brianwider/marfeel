@@ -55,9 +55,13 @@ Also, be sure to have `git` available in your PATH, `npm` might need it (You can
   If you want a custom PORT, just change it the following way:
 
     $ PORT=3001 npm start
+   
+  Then navigate to `http://localhost:PORT` on the browser.
 
 ## Running the project on development
   
   It will start the application on the port 3000 (or the defined one) with a watcher.
 
     $ npm run start-dev
+    
+  Then navigate to `http://localhost:3000` on the browser.
