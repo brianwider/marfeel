@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mocha Tests</title>
+    <link rel="stylesheet" href="node_modules/mocha/mocha.css">
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <div id="main"></div>
+    <div id="mocha"></div>
+    <!-- Mocha, chai & fetch mocker -->
+    <script src="node_modules/mocha/mocha.js"></script>
+    <script src="node_modules/chai/chai.js"></script>
+    <script src="node_modules/fetch-mock/es5/client-bundle.js"></script>
+    <script>mocha.setup('bdd')</script>
+
+    <!-- Local files -->
+    <script src="app/js/dependencies/d3.min.js"></script>
+    <script src="app/js/helpers.js"></script>
+    <script src="app/js/home.js"></script>
+
+    <!-- Test files -->
+    <script src="tests/home.spec.js"></script>
+
+    <script>
+      mocha.run();
+    </script>
+  </body>
+</html>

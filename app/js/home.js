@@ -178,5 +178,3 @@ async function startApp() {
   const graphsData = await getGraphs();
   graphsData.map(renderBox);
 }
-
-startApp();

@@ -9,6 +9,7 @@ Simple nodejs application with an html that consumes an API containing mocked st
   - As i did not have many time due to the heavy work we are having right now at my current job, i was not able to do the custom slider.
   - The tests just cover the most "vulnerable" points, it could be much better and could also be tested with Nightwatch, Selenium, etc.
   - Time applied: Around 5 hours total.
+  - The tests could be improved making it through nodejs starting a chrome instance instead of running in an HTML, but it was made this way to make it faster.
 
 ---
 ## Requirements
@@ -38,6 +39,12 @@ Also, be sure to have `git` available in your PATH, `npm` might need it (You can
     $ cd marfeel
     $ npm install
 
+
+## Running the tests
+  
+  It will open a `testrunner.html` where will display a report of the tests running at the moment on the browser.
+
+    $ npm test
 
 ## Running the project
   
